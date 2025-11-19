@@ -39,3 +39,32 @@
 
 # debug information files
 *.dwo
+.sconsign.dblite
+
+# Build artifacts
+bin/
+*.os
+*.framework/
+*.dylib
+*.so
+*.dll
+*.wasm
+
+# Godot-cpp build files (keep the source, ignore builds)
+thirdparty/godot-cpp/bin/
+thirdparty/godot-cpp/gen/
+thirdparty/godot-cpp/.sconsign.dblite
+
+# Generated documentation files
+src/gen/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
